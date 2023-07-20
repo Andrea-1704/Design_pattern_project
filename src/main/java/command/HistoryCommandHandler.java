@@ -20,13 +20,6 @@ public class HistoryCommandHandler implements CommandHandler {
 			throw new NoSuchMethodError();
 		}
 	}
-	/*
-	 * private static class NonExecutableCommand implements Command {
-	 * 
-	 * @Override public boolean doIt() { throw new NoSuchMethodError(); }
-	 * 
-	 * @Override public boolean undoIt() { throw new NoSuchMethodError(); } }
-	 */
 
 	private int maxHistoryLength = 100;
 
