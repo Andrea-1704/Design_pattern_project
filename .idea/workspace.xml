@@ -4,87 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c8af69-9b7b-421d-b9cb-cc1311085e31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interprete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/CommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/HistoryCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaAreaIdCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaAreaTipoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaAreaTuttiCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaPerimetroIdCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaPerimetroTipoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaPerimetroTuttiCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CreaGruppoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CreateCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/DeleteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiGruppiCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiIDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiTipoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MoveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MoveOFFCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/RimuoviGruppoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/ScaleCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AbstractExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AnalizzatoreLessicale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AnalizzatoreSintattico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Area.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AreaId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AreaTutto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AreaType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Cmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Comando.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Create.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/DoubleDimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListaGruppi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListaOggetto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListaTipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListaTutti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/MoveMV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/MoveOffMV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/OggettiGrafici.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Perimetro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/PerimetroId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/PerimetroTutto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/PerimetroType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Pos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Remove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Scale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Simboli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Stato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/SyntaxException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/TypeConstr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/TypeConstrCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/TypeConstrImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/TypeConstrRect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/UnGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/AbstractGraphicObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/CircleObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/GraphicEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/GraphicObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/GraphicObjectListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/ImageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/NyaNya.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/RectangleObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/CircleObjectView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/FlyweightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/GraphicObjectView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/ImageObjectView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/PannelloGrafico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/RectangleObjectView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AnalizzatoreLessicaleTest.java" afterDir="false" />
+    <list default="true" id="65c8af69-9b7b-421d-b9cb-cc1311085e31" name="Changes" comment="Primary commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiIDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiIDCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,11 +112,23 @@
       <workItem from="1689840971366" duration="413000" />
       <workItem from="1689841407235" duration="137000" />
       <workItem from="1689841586770" duration="1873000" />
-      <workItem from="1689859277523" duration="282000" />
+      <workItem from="1689859277523" duration="9647000" />
     </task>
+    <task id="LOCAL-00001" summary="Primary commit">
+      <created>1689859735214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689859735215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primary commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primary commit" />
   </component>
 </project>

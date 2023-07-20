@@ -29,7 +29,7 @@ public class MostraTuttiIDCommand implements Command{
         visualizzazione.append("caratteristiche di "+this.id+ " sono:");
         visualizzazione.append("\n");
         for(GraphicObject go: oggetti){
-            visualizzazione.append("identificatore: "+go.getIdentifier());
+            visualizzazione.append("identificatore unico: "+go.getIdentifier());
             visualizzazione.append("\n");
             visualizzazione.append("scala: "+go.getScala());
             visualizzazione.append("\n");
