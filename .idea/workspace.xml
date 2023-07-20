@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65c8af69-9b7b-421d-b9cb-cc1311085e31" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interprete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/HistoryCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaAreaIdCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaAreaTipoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaAreaTuttiCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaPerimetroIdCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaPerimetroTipoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CalcolaPerimetroTuttiCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CreaGruppoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/CreateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/DeleteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiGruppiCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiIDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MostraTuttiTipoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MoveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/MoveOFFCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/RimuoviGruppoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concreteCommand/ScaleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AbstractExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AnalizzatoreLessicale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AnalizzatoreSintattico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AreaId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AreaTutto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/AreaType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Cmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Comando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/DoubleDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListaGruppi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListaOggetto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListaTipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/ListaTutti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/MoveMV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/MoveOffMV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/OggettiGrafici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Perimetro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/PerimetroId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/PerimetroTutto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/PerimetroType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Pos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Remove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Scale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Simboli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Stato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/SyntaxException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/TypeConstr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/TypeConstrCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/TypeConstrImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/TypeConstrRect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interpreter/UnGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/AbstractGraphicObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/CircleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/GraphicEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/GraphicObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/GraphicObjectListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/ImageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/NyaNya.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/RectangleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/CircleObjectView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/FlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/GraphicObjectView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/ImageObjectView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/PannelloGrafico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/RectangleObjectView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AnalizzatoreLessicaleTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SlIHBGPnj32ioB61fU2itDmz7V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andrea/Desktop/Piattaforme/provaKeycloak/provaKeycloak/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrea\Desktop\ProgettoAndreaMirendaIngegneria\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Interprete">
+    <configuration name="Interprete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interprete" />
+      <module name="ProgettoAndreaMirendaIngegneria" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnalizzatoreLessicaleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgettoAndreaMirendaIngegneria" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnalizzatoreLessicaleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnalizzatoreLessicaleTest.testSomma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgettoAndreaMirendaIngegneria" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnalizzatoreLessicaleTest" />
+      <option name="METHOD_NAME" value="testSomma" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Interprete" />
+        <item itemvalue="JUnit.AnalizzatoreLessicaleTest.testSomma" />
+        <item itemvalue="JUnit.AnalizzatoreLessicaleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65c8af69-9b7b-421d-b9cb-cc1311085e31" name="Changes" comment="" />
+      <created>1689714653196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689714653196</updated>
+      <workItem from="1689714654823" duration="12378000" />
+      <workItem from="1689735718838" duration="1927000" />
+      <workItem from="1689737782623" duration="105000" />
+      <workItem from="1689802148613" duration="89000" />
+      <workItem from="1689806169243" duration="619000" />
+      <workItem from="1689840971366" duration="413000" />
+      <workItem from="1689841407235" duration="137000" />
+      <workItem from="1689841586770" duration="1873000" />
+      <workItem from="1689859277523" duration="282000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
