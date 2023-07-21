@@ -15,20 +15,26 @@ public class ScaleCommand implements Command{
     private LinkedList<GraphicObject> oggetti;
     private JTextArea visualizzazione;
     private String id;
+    private PannelloGrafico panel;
 
     public ScaleCommand(PannelloGrafico panel, JTextArea visualizzazione, String id, float scala){
         this.scala=scala;
         this.visualizzazione=visualizzazione;
         this.id=id;
+        this.panel=panel;
         //il pannello deve supporre ci sia un solo elemento con quell'id, altrimenti da il primo
-        this.oggetti=panel.getOggetti(id);
+        /*this.oggetti=panel.getOggetti(id);
         for(GraphicObject go: oggetti){
             vecchiaScala.put(go.getIdentifier(),(double)1/scala);
-        }
+        }*/
     }
 
     @Override
     public boolean doIt() {
+        this.oggetti=panel.getOggetti(id);
+        for(GraphicObject go: oggetti){
+            vecchiaScala.put(go.getIdentifier(),(double)1/scala);
+        }
         if(oggetti.size()==0){
             visualizzazione.setText("Oggetto non presente.");
             return true;
