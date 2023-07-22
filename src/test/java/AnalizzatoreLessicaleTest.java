@@ -13,8 +13,6 @@ public class AnalizzatoreLessicaleTest {
         Simboli ris2= lexer2.prossimoSimbolo();
         AnalizzatoreLessicale lexer3= new AnalizzatoreLessicale("img");
         Simboli ris3= lexer3.prossimoSimbolo();
-        //AnalizzatoreLessicale lexer4= new AnalizzatoreLessicale("./pippo.png");
-        //Simboli ris4= lexer4.prossimoSimbolo();
         Simboli[] oggetti = {Simboli.NEW, Simboli.circle, Simboli.TONDA_APERTA, Simboli.posfloat, Simboli.TONDA_CHIUSA, Simboli.TONDA_APERTA, Simboli.posfloat, Simboli.VIRGOLA, Simboli.posfloat, Simboli.TONDA_CHIUSA};
         Simboli[] res= new Simboli[10];
         AnalizzatoreLessicale lexer5= new AnalizzatoreLessicale("new circle (500) (300,300)");
@@ -26,6 +24,5 @@ public class AnalizzatoreLessicaleTest {
         assertEquals(Simboli.PAROLA, ris);
         assertEquals(Simboli.NEW, ris2);
         assertEquals(Simboli.img, ris3);
-        //assertEquals(Simboli.PATH, ris4);
     }
 }

@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c8af69-9b7b-421d-b9cb-cc1311085e31" name="Changes" comment="Primary commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interprete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interprete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interpreter/AnalizzatoreSintattico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interpreter/AnalizzatoreSintattico.java" afterDir="false" />
-    </list>
+    <list default="true" id="65c8af69-9b7b-421d-b9cb-cc1311085e31" name="Changes" comment="Primary commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +58,7 @@
       <recent name="C:\Users\Andrea\Desktop\ProgettoAndreaMirendaIngegneria\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Interprete">
+  <component name="RunManager" selected="JUnit.AnalizzatoreLessicaleTest.testSomma">
     <configuration name="Interprete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interprete" />
       <module name="ProgettoAndreaMirendaIngegneria" />
@@ -91,8 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Interprete" />
         <item itemvalue="JUnit.AnalizzatoreLessicaleTest.testSomma" />
+        <item itemvalue="Application.Interprete" />
         <item itemvalue="JUnit.AnalizzatoreLessicaleTest" />
       </list>
     </recent_temporary>
@@ -117,7 +113,7 @@
       <workItem from="1689883185331" duration="2369000" />
       <workItem from="1689889388302" duration="103000" />
       <workItem from="1689931723667" duration="659000" />
-      <workItem from="1690018147253" duration="312000" />
+      <workItem from="1690018147253" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="Primary commit">
       <created>1689859735214</created>
@@ -147,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689932289139</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Primary commit">
+      <created>1690018546229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690018546229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
