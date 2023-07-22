@@ -26,7 +26,6 @@ public class AnalizzatoreSintattico {
         this.visualizzazione=visualizzazione;
         visualizzazione.setForeground(Color.black);
         root=comando();
-        
         //atteso(Simboli.EOF);
     }
 

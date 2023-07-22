@@ -84,13 +84,14 @@ public class Interprete {
         JScrollPane scrollPanel = new JScrollPane(visualizzazione);
         // Aggiungi il JScrollPane alla finestra
         frame.getContentPane().add(scrollPanel);
+        Stato s=new Stato();
 
         scrittura.addActionListener(e -> {
                 String comando=scrittura.getText();
                 StringReader sr = new StringReader(comando);
                 AnalizzatoreSintattico p = new AnalizzatoreSintattico(sr, panel, visualizzazione, invoker);
                 Comando ris=p.getComando();
-                ris.interpret(panel, visualizzazione, invoker, new Stato());
+                ris.interpret(panel, visualizzazione, invoker, s);
         });
         
         frame.add(scrittura, BorderLayout.SOUTH);
