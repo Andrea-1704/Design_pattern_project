@@ -32,7 +32,7 @@ Ensure you have the following installed:
 ### 📥 Installation
 Clone the repository and navigate into the project directory:
 ```sh
- git clone https://github.com/your-repo/java-graphic-manipulation.git
+ git clone https://github.com/Andrea-1704/Design_pattern_project.git
  cd java-graphic-manipulation
 ```
 
@@ -59,7 +59,7 @@ Once the application is running, you can:
 ```
 
 ## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 🤝 Contributing
 Feel free to contribute by submitting issues or pull requests. We welcome enhancements and optimizations!
